@@ -1,0 +1,605 @@
+Script Name,Category,Ports Related To,One Line Description
+acarsd-info,Information Gathering,113 (Ident),Gathers information from an ACARS decoder server.
+address-info,Information Gathering,Varies (depends on query),Retrieves and displays information about a specific IP address or hostname.
+afp-brute,Brute Force,548 (AFP),Performs a brute force attack on the Apple Filing Protocol (AFP) authentication.
+afp-ls,Information Gathering,548 (AFP),Lists files or directories available on an AFP server.
+afp-path-vuln,Vulnerability,548 (AFP),Checks for known path vulnerabilities in the AFP service.
+afp-serverinfo,Information Gathering,548 (AFP),Retrieves and displays information about an AFP server.
+afp-showmount,Information Gathering,548 (AFP),Displays the exported file systems from an AFP server.
+ajp-auth,Brute Force,8009 (AJP),Attempts to brute force authentication on an Apache JServ Protocol (AJP) server.
+ajp-brute,Brute Force,8009 (AJP),Performs a brute force attack against an AJP (Apache JServ Protocol) server.
+ajp-headers,Information Gathering,8009 (AJP),Retrieves and displays the headers from an AJP server.
+ajp-methods,Information Gathering,8009 (AJP),Enumerates supported HTTP methods on an AJP server.
+ajp-request,Information Gathering,8009 (AJP),Sends crafted requests to an AJP server to identify potential weaknesses.
+allseeingeye-info,Information Gathering,Varies (common ports),Gathers information from an All Seeing Eye (ASE) server.
+amqp-info,Information Gathering,5672 (AMQP),Retrieves information about an AMQP (Advanced Message Queuing Protocol) server.
+asn-query,Information Gathering,"Varies (DNS, WHOIS)",Performs an ASN (Autonomous System Number) query to gather network-related information.
+auth-owners,Information Gathering,Varies (common ports),Gathers information about authentication owners or users.
+auth-spoof,Spoofing,Varies (common ports),Spoofs authentication information to bypass security checks.
+backorifice-brute,Brute Force,31337 (Back Orifice),Performs a brute force attack on the Back Orifice remote administration tool.
+backorifice-info,Information Gathering,31337 (Back Orifice),Gathers information from a Back Orifice server.
+bacnet-info,Information Gathering,47808 (BACnet),Retrieves information from a BACnet (Building Automation and Control Network) device.
+banner,Information Gathering,Varies (depends on service),Retrieves banner information from a service to identify the software version and other details.
+bitcoin-getaddr,Information Gathering,8333 (Bitcoin),Gathers Bitcoin node address information via the "getaddr" RPC command.
+bitcoin-info,Information Gathering,8333 (Bitcoin),"Retrieves information about a Bitcoin node, including block and network status."
+bitcoinrpc-info,Information Gathering,8332 (Bitcoin RPC),"Retrieves information from a Bitcoin RPC server, including blockchain and wallet data."
+bittorrent-discovery,Information Gathering,6881-6889 (BitTorrent),Discovers peers and trackers in a BitTorrent network.
+bjnp-discover,Information Gathering,8612 (BJNP),Detects devices using the Brother Jet Network Protocol (BJNP).
+broadcast-ataoe-discover,Information Gathering,2002 (ATAoE),Discovers ATA over Ethernet (ATAoE) devices on the network.
+broadcast-avahi-dos,DoS Attack,5353 (Avahi),Initiates a DoS attack targeting the Avahi service for local network service discovery.
+broadcast-bjnp-discover,Information Gathering,8612 (BJNP),Discovers Brother devices using the BJNP protocol.
+broadcast-db2-discover,Information Gathering,523 (DB2),Discovers IBM DB2 database servers on the network.
+broadcast-dhcp-discover,Information Gathering,67-68 (DHCP),Broadcasts a DHCP request to discover available DHCP servers on the network.
+broadcast-dhcp6-discover,Information Gathering,547 (DHCPv6),Broadcasts a DHCPv6 request to discover available DHCPv6 servers on the network.
+broadcast-dns-service-discovery,Information Gathering,53 (DNS),Discovers DNS service information via mDNS or DNS-SD.
+broadcast-dropbox-listener,Information Gathering,17500 (Dropbox),Discovers Dropbox listeners for file synchronization.
+broadcast-eigrp-discovery,Information Gathering,88 (EIGRP),Discovers EIGRP (Enhanced Interior Gateway Routing Protocol) neighbors on the network.
+broadcast-hid-discoveryd,Information Gathering,1-1024 (varies by service),Discovers Human Interface Devices (HID) on a network.
+broadcast-igmp-discovery,Information Gathering,224.0.0.1 (IGMP),Discovers IGMP (Internet Group Management Protocol) listeners and routers.
+broadcast-jenkins-discover,Information Gathering,8080 (Jenkins),Discovers Jenkins servers running on the network.
+broadcast-listener,Information Gathering,Varies (depends on service),Listens for broadcasts from various network services.
+broadcast-ms-sql-discover,Information Gathering,1433-1434 (MSSQL),Discovers Microsoft SQL Server instances on the network.
+broadcast-netbios-master-browser,Information Gathering,137-139 (NetBIOS),Discovers the master browser for NetBIOS services on the network.
+broadcast-networker-discover,Information Gathering,10000 (Networker),Discovers EMC Networker backup servers on the network.
+broadcast-novell-locate,Information Gathering,524 (Novell),Discovers Novell NetWare servers on the network.
+broadcast-ospf2-discover,Information Gathering,89 (OSPF),Discovers OSPF (Open Shortest Path First) routers on the network.
+broadcast-pc-anywhere,Information Gathering,5631 (PCAnywhere),Discovers PCAnywhere servers available for remote desktop management.
+broadcast-pc-duo,Information Gathering,8040 (PC-Duo),Discovers PC-Duo servers for remote access on the network.
+broadcast-pim-discovery,Information Gathering,103 (PIM),Discovers PIM (Protocol Independent Multicast) routers on the network.
+broadcast-ping,Information Gathering,Varies (ICMP),Sends broadcast ping requests to discover active hosts on the network.
+broadcast-pppoe-discover,Information Gathering,5060 (PPPoE),Discovers PPPoE (Point-to-Point Protocol over Ethernet) servers on the network.
+broadcast-rip-discover,Information Gathering,520 (RIP),Discovers RIP (Routing Information Protocol) routers on the network.
+broadcast-ripng-discover,Information Gathering,521 (RIPng),Discovers RIPng (Routing Information Protocol next generation) routers on the network.
+broadcast-sonicwall-discover,Information Gathering,443 (SonicWall),Discovers SonicWall devices available on the network.
+broadcast-sybase-asa-discover,Information Gathering,5000 (Sybase ASA),Discovers Sybase Adaptive Server Anywhere (ASA) instances on the network.
+broadcast-tellstick-discover,Information Gathering,17600 (TellStick),Discovers TellStick devices for home automation systems.
+broadcast-upnp-info,Information Gathering,1900 (UPnP),Discovers UPnP (Universal Plug and Play) devices on the network.
+broadcast-versant-locate,Information Gathering,8400 (Versant),Discovers Versant Object Database servers on the network.
+broadcast-wake-on-lan,Information Gathering,9 (WOL),Broadcasts Wake-on-LAN packets to wake up computers on the network.
+broadcast-wpad-discover,Information Gathering,80 (WPAD),Discovers Web Proxy Autodiscovery Protocol (WPAD) servers on the network.
+broadcast-wsdd-discover,Information Gathering,5357 (WSD),Discovers Web Services Dynamic Discovery (WSD) devices on the network.
+broadcast-xdmcp-discover,Information Gathering,177 (XDMCP),Discovers XDMCP (X Display Manager Control Protocol) servers for remote desktop access.
+cassandra-brute,Brute Force,9042 (Cassandra),Performs a brute force attack against the Cassandra NoSQL database's authentication.
+cassandra-info,Information Gathering,9042 (Cassandra),Gathers information about a Cassandra NoSQL database instance.
+cccam-version,Information Gathering,12000 (CCCam),Retrieves version information from a CCCam server (used for satellite TV sharing).
+cics-enum,Information Gathering,102 (CICS),Enumerates CICS (Customer Information Control System) resources and services.
+cics-info,Information Gathering,102 (CICS),Retrieves detailed information about CICS systems.
+cics-user-brute,Brute Force,102 (CICS),Performs a brute force attack against CICS system user credentials.
+cics-user-enum,Information Gathering,102 (CICS),Enumerates user accounts from a CICS system.
+citrix-brute-xml,Brute Force,1494 (Citrix),Brute forces authentication to a Citrix server using XML-based requests.
+citrix-enum-apps,Information Gathering,1494 (Citrix),Enumerates applications available on a Citrix server.
+citrix-enum-apps-xml,Information Gathering,1494 (Citrix),Retrieves available Citrix applications via XML requests.
+citrix-enum-servers,Information Gathering,1494 (Citrix),Enumerates Citrix servers available in a network.
+citrix-enum-servers-xml,Information Gathering,1494 (Citrix),Retrieves Citrix server details using XML queries.
+clamav-exec,Information Gathering,3310 (ClamAV),Executes a query on a ClamAV antivirus server to retrieve its version and status.
+clock-skew,Information Gathering,Varies (NTP or similar),Checks for time discrepancies (clock skew) between a server and its clients.
+coap-resources,Information Gathering,5683 (CoAP),Enumerates resources on a CoAP (Constrained Application Protocol) server.
+couchdb-databases,Information Gathering,5984 (CouchDB),Enumerates the available databases on a CouchDB server.
+couchdb-stats,Information Gathering,5984 (CouchDB),Retrieves statistics about a CouchDB server’s performance and health.
+creds-summary,Information Gathering,Varies (common ports),Summarizes credentials information gathered from various services.
+cups-info,Information Gathering,631 (CUPS),Retrieves information about a CUPS (Common Unix Printing System) server.
+cups-queue-info,Information Gathering,631 (CUPS),Retrieves information about print queues on a CUPS server.
+cvs-brute,Brute Force,2401 (CVS),Performs a brute force attack on a CVS (Concurrent Versions System) repository.
+cvs-brute-repository,Brute Force,2401 (CVS),Brute forces authentication on a specific CVS repository.
+daap-get-library,Information Gathering,3689 (DAAP),Retrieves the media library from a DAAP (Digital Audio Access Protocol) server.
+daytime,Information Gathering,13 (Daytime),Retrieves the current date and time from a Daytime protocol server.
+db2-das-info,Information Gathering,523 (DB2),Retrieves information about a DB2 (IBM Database) DAS (Database Application Server).
+deluge-rpc-brute,Brute Force,58846 (Deluge),Performs a brute force attack on Deluge’s RPC (Remote Procedure Call) service.
+dhcp-discover,Information Gathering,67-68 (DHCP),Sends a DHCP Discover request to find available DHCP servers on the network.
+dicom-brute,Brute Force,104 (DICOM),Performs a brute force attack on DICOM (Digital Imaging and Communications in Medicine) servers.
+dicom-ping,Information Gathering,104 (DICOM),Sends a ping request to a DICOM server to check its availability.
+dict-info,Information Gathering,2628 (DICT),Retrieves information from a DICT (Dictionary Server) service.
+distcc-cve2004-2687,Vulnerability,3632 (DistCC),Exploits a vulnerability (CVE-2004-2687) in the DistCC service to execute arbitrary commands.
+dns-blacklist,Information Gathering,53 (DNS),Checks if a domain is listed on a known DNS blacklist.
+dns-brute,Brute Force,53 (DNS),Performs a brute force attack on DNS server to enumerate domain names or subdomains.
+dns-cache-snoop,Information Gathering,53 (DNS),Attempts to snoop on the DNS server cache to reveal cached records.
+dns-check-zone,Information Gathering,53 (DNS),Checks the validity and integrity of a DNS zone.
+dns-client-subnet-scan,Information Gathering,53 (DNS),Attempts to determine the client's subnet via DNS queries.
+dns-fuzz,Fuzzing,53 (DNS),Fuzzes DNS server responses to identify vulnerabilities.
+dns-ip6-arpa-scan,Information Gathering,53 (DNS),Scans for IPv6 reverse DNS records (in-addr.arpa).
+dns-nsec-enum,Information Gathering,53 (DNS),Enumerates NSEC (Next Secure) records from a DNS server to find zone data.
+dns-nsec3-enum,Information Gathering,53 (DNS),Enumerates NSEC3 records from a DNS server to reveal zone data and security weaknesses.
+dns-nsid,Information Gathering,53 (DNS),Queries a DNS server to retrieve the NSID (Name Server Identifier).
+dns-random-srcport,Information Gathering,53 (DNS),Uses random source ports for DNS queries to evade detection and blocking.
+dns-random-txid,Information Gathering,53 (DNS),Uses random transaction IDs for DNS queries to bypass cache poisoning defenses.
+dns-recursion,Information Gathering,53 (DNS),"Checks if a DNS server allows recursion, which can be exploited for DNS attacks."
+dns-service-discovery,Information Gathering,53 (DNS),Discovers services advertised via DNS Service Discovery (DNS-SD).
+dns-srv-enum,Information Gathering,53 (DNS),Enumerates SRV (Service) records in a DNS zone.
+dns-update,Information Gathering,53 (DNS),Initiates a DNS update request to modify DNS records.
+dns-zeustracker,Information Gathering,53 (DNS),Queries DNS for Zeus botnet-related domain names to track and identify infected systems.
+dns-zone-transfer,Information Gathering,53 (DNS),Attempts a DNS zone transfer to gather the entire zone's records.
+docker-version,Information Gathering,2375 (Docker),Retrieves version information from a Docker daemon using its remote API.
+domcon-brute,Brute Force,5039 (DOMCON),Performs a brute force attack against a DomCon (Desktop Management Console) service.
+domcon-cmd,Information Gathering,5039 (DOMCON),Executes a command on a DomCon service to gather information or control remote systems.
+domino-enum-users,Information Gathering,1352 (Lotus Domino),Enumerates user accounts from a Lotus Domino server.
+dpap-brute,Brute Force,1731 (DPAP),Performs a brute force attack against DPAP (Digital Property Access Protocol) servers.
+drda-brute,Brute Force,50000 (DRDA),Brute forces authentication against DRDA (Distributed Relational Database Architecture) servers.
+drda-info,Information Gathering,50000 (DRDA),Retrieves information about a DRDA (Distributed Relational Database Architecture) service.
+duplicates,Information Gathering,Varies,"Identifies and displays duplicate entries in data, potentially useful for discovery of duplicate records."
+eap-info,Information Gathering,1701 (EAP),Retrieves information about the EAP (Extensible Authentication Protocol) configuration.
+enip-info,Information Gathering,44818 (Ethernet/IP),Gathers information from an Ethernet/IP (Industrial Protocol) device or server.
+epmd-info,Information Gathering,4369 (EPMD),Retrieves information from an Erlang Port Mapper Daemon (EPMD) service.
+eppc-enum-processes,Information Gathering,49152 (EPPC),Enumerates processes running on a system through the EPPC (Extensible Protocol for Process Control) protocol.
+fcrdns,Information Gathering,53 (DNS),Performs a Forward Confirmed Reverse DNS lookup to validate domain names.
+finger,Information Gathering,79 (Finger),Retrieves information about users on a system via the Finger protocol.
+fingerprint-strings,Information Gathering,Varies (depends on service),Identifies service types and versions by analyzing the returned banner strings.
+firewalk,Network Discovery,"139-445 (NetBIOS, SMB)",Maps out network paths and firewalls by sending specific packets to determine which are open.
+firewall-bypass,Exploitation,Varies (depends on firewall),Attempts to bypass firewall restrictions and access a network or service.
+flume-master-info,Information Gathering,41414 (Flume),Gathers information about the Flume Master service used for data collection and aggregation.
+fox-info,Information Gathering,1950 (Fox),Retrieves information from a Fox Protocol service (used in some industrial systems).
+freelancer-info,Information Gathering,Varies,Retrieves information from Freelancer server or application services.
+ftp-anon,Brute Force,21 (FTP),Checks for anonymous FTP access by attempting to log in with empty credentials.
+ftp-bounce,Exploitation,21 (FTP),Attempts to exploit FTP servers to bounce traffic to other ports or systems.
+ftp-brute,Brute Force,21 (FTP),Performs a brute force attack against FTP login credentials.
+ftp-libopie,Information Gathering,21 (FTP),"Retrieves information about the FTP server, specifically checking for the LIBOPIE vulnerability."
+ftp-proftpd-backdoor,Exploitation,21 (FTP),Exploits a backdoor in ProFTPD (FTP server software) to gain unauthorized access.
+ftp-syst,Information Gathering,21 (FTP),Retrieves system information from an FTP server using the SYST command.
+ftp-vsftpd-backdoor,Exploitation,21 (FTP),Exploits a backdoor in vsFTPd (FTP server software) to gain unauthorized access.
+ftp-vuln-cve2010-4221,Exploitation,21 (FTP),Exploits the vulnerability CVE-2010-4221 in FTP servers (specifically vsFTPd 2.3.4).
+ganglia-info,Information Gathering,8649 (Ganglia),"Retrieves information about Ganglia, a monitoring system used for high-performance computing clusters."
+giop-info,Information Gathering,6720-6735 (GIOP),"Gathers information from a GIOP (General Inter-ORB Protocol) service, used in CORBA-based applications."
+gkrellm-info,Information Gathering,4739 (GKrellM),Retrieves information from a GKrellM (system monitoring tool) server.
+gopher-ls,Information Gathering,70 (Gopher),"Lists the contents of a Gopher server, an older protocol used for distributing documents."
+gpsd-info,Information Gathering,2947 (GPSD),"Retrieves information from a GPSD (GPS Daemon) server, typically used for GPS data."
+hadoop-datanode-info,Information Gathering,50070 (Hadoop),Retrieves information from a Hadoop DataNode.
+hadoop-jobtracker-info,Information Gathering,50030 (Hadoop),Retrieves information from a Hadoop JobTracker service.
+hadoop-namenode-info,Information Gathering,50070 (Hadoop),Retrieves information from a Hadoop NameNode service.
+hadoop-secondary-namenode-info,Information Gathering,50090 (Hadoop),Retrieves information from a Hadoop Secondary NameNode service.
+hadoop-tasktracker-info,Information Gathering,50060 (Hadoop),Retrieves information from a Hadoop TaskTracker service.
+hbase-master-info,Information Gathering,60010 (HBase),Retrieves information from the HBase Master service.
+hbase-region-info,Information Gathering,60030 (HBase),Retrieves information about HBase RegionServer service.
+hddtemp-info,Information Gathering,7634 (HDDTemp),Retrieves temperature data from a hard drive via the HDDTemp service.
+hnap-info,Information Gathering,80 (HTTP),Gathers information from a HNAP (Home Network Administration Protocol) service.
+hostmap-bfk,Information Gathering,Varies,Performs a host mapping based on BFK (Backbone Focused Knowledge) methodology.
+hostmap-crtsh,Information Gathering,Varies,Maps hosts by querying CRITs Search (CRTSh) for domain information.
+hostmap-robtex,Information Gathering,Varies,Maps hosts by querying Robtex DNS database for domain relationships.
+http-adobe-coldfusion-apsa1301,Vulnerability,8500 (ColdFusion),Checks for a ColdFusion vulnerability (APSA1301) in Adobe ColdFusion servers.
+http-affiliate-id,Information Gathering,80 (HTTP),Extracts affiliate ID information from URLs or websites.
+http-apache-negotiation,Information Gathering,80 (HTTP),Tests for Apache HTTP server negotiation settings.
+http-apache-server-status,Information Gathering,80 (HTTP),Retrieves the Apache HTTP server status page.
+http-aspnet-debug,Vulnerability,80 (HTTP),Checks for debug information in ASP.NET applications that may reveal sensitive details.
+http-auth,Information Gathering,80 (HTTP),Checks for the presence of HTTP authentication on a web server.
+http-auth-finder,Information Gathering,80 (HTTP),Identifies HTTP services that are configured for authentication.
+http-avaya-ipoffice-users,Information Gathering,80 (HTTP),Extracts user information from an Avaya IP Office server.
+http-awstatstotals-exec,Vulnerability,80 (HTTP),Exploits a vulnerability in Awstats that allows remote command execution.
+http-axis2-dir-traversal,Vulnerability,80 (HTTP),Exploits a directory traversal vulnerability in Apache Axis2 to gain unauthorized access.
+http-backup-finder,Information Gathering,80 (HTTP),Finds backup files on web servers that may contain sensitive data.
+http-barracuda-dir-traversal,Vulnerability,80 (HTTP),Exploits a directory traversal vulnerability in Barracuda web servers.
+http-bigip-cookie,Information Gathering,80 (HTTP),"Identifies the presence of F5 BIG-IP cookies on a web server, used for session tracking."
+http-brute,Brute Force,80 (HTTP),Performs a brute-force attack on web application login forms.
+http-cakephp-version,Information Gathering,80 (HTTP),Identifies the version of CakePHP framework used in a web application.
+http-chrono,Information Gathering,80 (HTTP),Gathers information from web servers by analyzing timestamp differences.
+http-cisco-anyconnect,Information Gathering,80 (HTTP),Retrieves information from Cisco AnyConnect VPN portals.
+http-coldfusion-subzero,Vulnerability,8500 (ColdFusion),Exploits the SubZero vulnerability in ColdFusion servers for unauthorized access.
+http-comments-displayer,Information Gathering,80 (HTTP),Displays comments or metadata from HTTP responses to gather information about a web server.
+http-config-backup,Information Gathering,80 (HTTP),Finds and enumerates configuration backups that may be exposed on a web server.
+http-cookie-flags,Information Gathering,80 (HTTP),"Identifies cookie flags (Secure, HttpOnly) in HTTP responses that could indicate security practices."
+http-cors,Information Gathering,80 (HTTP),Checks if a web server supports Cross-Origin Resource Sharing (CORS).
+http-cross-domain-policy,Information Gathering,80 (HTTP),Identifies if a server exposes a cross-domain policy file (used by Flash and Java).
+http-csrf,Vulnerability,80 (HTTP),Identifies Cross-Site Request Forgery (CSRF) vulnerabilities in web applications.
+http-date,Information Gathering,80 (HTTP),Extracts the Date header from an HTTP response to gather server time information.
+http-default-accounts,Information Gathering,80 (HTTP),Identifies default accounts and credentials in a web application.
+http-devframework,Information Gathering,80 (HTTP),Identifies the use of common web development frameworks in a web application.
+http-dlink-backdoor,Exploitation,80 (HTTP),Exploits a backdoor in certain D-Link routers to gain unauthorized access.
+http-dombased-xss,Vulnerability,80 (HTTP),Tests for DOM-based Cross-Site Scripting (XSS) vulnerabilities in web applications.
+http-domino-enum-passwords,Information Gathering,80 (HTTP),Enumerates user passwords from IBM Domino servers.
+http-drupal-enum,Information Gathering,80 (HTTP),Enumerates Drupal users and other information from a Drupal server.
+http-drupal-enum-users,Information Gathering,80 (HTTP),Enumerates user accounts on a Drupal-based web application.
+http-enum,Information Gathering,80 (HTTP),Enumerates directories and files from a web server to gather potential vulnerabilities.
+http-errors,Information Gathering,80 (HTTP),Scans for common HTTP error codes that may provide insights into a web application's structure.
+http-exif-spider,Information Gathering,80 (HTTP),Spider web applications to extract EXIF metadata from images.
+http-favicon,Information Gathering,80 (HTTP),Extracts favicon files from a web server to identify the application or technology used.
+http-feed,Information Gathering,80 (HTTP),Extracts RSS or Atom feed information from a web server.
+http-fetch,Information Gathering,80 (HTTP),"Fetches data from web servers for analysis, such as headers or responses."
+http-fileupload-exploiter,Exploitation,80 (HTTP),Exploits file upload vulnerabilities in web applications to upload malicious files.
+http-form-brute,Brute Force,80 (HTTP),Performs a brute-force attack on web application login forms.
+http-form-fuzzer,Fuzzing,80 (HTTP),Fuzzes input fields in web forms to identify potential vulnerabilities.
+http-frontpage-login,Exploitation,80 (HTTP),Attempts to exploit Microsoft FrontPage extensions on web servers for unauthorized access.
+http-generator,Information Gathering,80 (HTTP),Extracts the generator meta tag to identify technologies used on a website.
+http-git,Information Gathering,80 (HTTP),Identifies the presence of Git repositories exposed on a web server.
+http-gitweb-projects-enum,Information Gathering,80 (HTTP),Enumerates GitWeb projects hosted on a web server.
+http-google-malware,Information Gathering,80 (HTTP),Checks for malware-infected Google links or URLs used in web applications.
+http-grep,Information Gathering,80 (HTTP),Searches for specific patterns or strings in HTTP responses for further analysis.
+http-headers,Information Gathering,80 (HTTP),Extracts HTTP headers from a web server for security and configuration analysis.
+http-hp-ilo-info,Information Gathering,80 (HTTP),Retrieves information from an HP Integrated Lights-Out (ILO) server management interface.
+http-huawei-hg5xx-vuln,Vulnerability,80 (HTTP),Checks for a vulnerability in Huawei HG5xx devices.
+http-icloud-findmyiphone,Exploitation,80 (HTTP),Attempts to exploit the Find My iPhone service for unauthorized access.
+http-icloud-sendmsg,Exploitation,80 (HTTP),Attempts to exploit iCloud's SendMessage feature for unauthorized interactions.
+http-iis-short-name-brute,Brute Force,80 (HTTP),Performs a brute-force attack on IIS short names to gather valid directories or files.
+http-iis-webdav-vuln,Vulnerability,80 (HTTP),Exploits a WebDAV vulnerability in IIS servers to gain unauthorized access.
+http-internal-ip-disclosure,Information Gathering,80 (HTTP),Identifies internal IP addresses exposed through web application error messages.
+http-joomla-brute,Brute Force,80 (HTTP),Performs a brute-force attack on Joomla CMS login credentials.
+http-jsonp-detection,Information Gathering,80 (HTTP),Detects the use of JSONP (JSON with padding) in web applications for potential security risks.
+http-litespeed-sourcecode-download,Exploitation,80 (HTTP),Exploits a vulnerability in LiteSpeed servers that allows source code downloads.
+http-ls,Information Gathering,80 (HTTP),Lists the directories and files of a web server.
+http-majordomo2-dir-traversal,Vulnerability,80 (HTTP),Exploits directory traversal vulnerabilities in Majordomo 2 to access restricted directories.
+http-malware-host,Information Gathering,80 (HTTP),Identifies and flags potential malware hosting on a web server.
+http-mcmp,Exploitation,80 (HTTP),Exploits a vulnerability in MCMP (Multicast Channel Management Protocol) on web servers.
+http-method-tamper,Exploitation,80 (HTTP),Manipulates HTTP methods to bypass restrictions and gain unauthorized access.
+http-methods,Information Gathering,80 (HTTP),"Identifies allowed HTTP methods (GET, POST, PUT, etc.) on a web server."
+http-mobileversion-checker,Information Gathering,80 (HTTP),Detects mobile versions of websites based on HTTP responses.
+http-ntlm-info,Information Gathering,80 (HTTP),Gathers information about NTLM (Windows authentication) configurations on web servers.
+http-open-proxy,Vulnerability,80 (HTTP),Identifies open proxy servers exposed on the web.
+http-open-redirect,Vulnerability,80 (HTTP),"Tests for open redirects in web applications, which could be used for phishing attacks."
+http-passwd,Information Gathering,80 (HTTP),Searches for publicly exposed password files or configurations on web servers.
+http-php-version,Information Gathering,80 (HTTP),"Retrieves the PHP version number used by a web server, which can help identify vulnerabilities."
+http-phpmyadmin-dir-traversal,Vulnerability,80 (HTTP),Exploits a directory traversal vulnerability in phpMyAdmin to access unauthorized directories.
+http-phpself-xss,Vulnerability,80 (HTTP),Detects Cross-Site Scripting (XSS) vulnerabilities in PHP applications.
+http-proxy-brute,Brute Force,80 (HTTP),Performs a brute-force attack against HTTP proxy server authentication.
+http-put,Exploitation,80 (HTTP),Attempts to use the HTTP PUT method to upload malicious files or gain unauthorized access.
+http-qnap-nas-info,Information Gathering,80 (HTTP),Gathers information from a QNAP NAS device.
+http-referer-checker,Information Gathering,80 (HTTP),"Analyzes HTTP referers for security issues, such as cross-site request forgery (CSRF) risks."
+http-rfi-spider,Exploitation,80 (HTTP),Exploits Remote File Inclusion (RFI) vulnerabilities in web applications.
+http-robots.txt,Information Gathering,80 (HTTP),Analyzes the robots.txt file to gather information about restricted or private directories.
+http-robtex-reverse-ip,Information Gathering,80 (HTTP),Queries Robtex for reverse IP information on a web server's domain.
+http-robtex-shared-ns,Information Gathering,80 (HTTP),Queries Robtex for shared nameserver information related to a web server's domain.
+http-sap-netweaver-leak,Vulnerability,80 (HTTP),Exploits a SAP NetWeaver memory leak vulnerability that could allow unauthorized access.
+http-security-headers,Information Gathering,80 (HTTP),"Checks for proper HTTP security headers like X-Frame-Options, Content-Security-Policy, etc."
+http-server-header,Information Gathering,80 (HTTP),Extracts the server header from HTTP responses to determine the server software used.
+http-shellshock,Vulnerability,80 (HTTP),Exploits the Shellshock vulnerability in Bash via a web server to gain unauthorized access.
+http-sitemap-generator,Information Gathering,80 (HTTP),"Detects the presence of sitemap.xml files for a website, which might expose sensitive URLs."
+http-slowloris,Denial of Service (DoS),80 (HTTP),Launches a Slowloris attack to exhaust server resources and cause a denial of service.
+http-slowloris-check,Information Gathering,80 (HTTP),Checks if a web server is vulnerable to a Slowloris denial of service attack.
+http-sql-injection,Vulnerability,80 (HTTP),Detects SQL injection vulnerabilities in web applications.
+http-stored-xss,Vulnerability,80 (HTTP),Detects stored Cross-Site Scripting (XSS) vulnerabilities in web applications.
+http-svn-enum,Information Gathering,80 (HTTP),Enumerates SVN (Subversion) repositories exposed on a web server.
+http-svn-info,Information Gathering,80 (HTTP),Gathers information about SVN (Subversion) repository configurations and versions.
+http-title,Information Gathering,80 (HTTP),Extracts the title tag from the HTML of a web page to help identify the site.
+http-tplink-dir-traversal,Vulnerability,80 (HTTP),Exploits directory traversal vulnerabilities in TP-Link devices to access unauthorized files.
+http-trace,Exploitation,80 (HTTP),Sends a TRACE request to the server to check if it responds with sensitive data.
+http-traceroute,Information Gathering,80 (HTTP),Determines the path between the attacker and the target server by sending HTTP requests.
+http-trane-info,Information Gathering,80 (HTTP),Gathers information from a Trane (HVAC) web server interface.
+http-unsafe-output-escaping,Vulnerability,80 (HTTP),Detects unsafe output escaping in web applications that can lead to XSS vulnerabilities.
+http-useragent-tester,Information Gathering,80 (HTTP),Tests the web server’s response to various user-agent strings to detect web application vulnerabilities.
+http-userdir-enum,Information Gathering,80 (HTTP),Enumerates directories in a web server’s user directory by guessing common usernames.
+http-vhosts,Information Gathering,80 (HTTP),Identifies virtual hosts (vhosts) on a web server to determine multiple websites hosted.
+http-virustotal,Information Gathering,80 (HTTP),Submits HTTP requests to VirusTotal to check for web malware or potentially harmful files.
+http-vlcstreamer-ls,Information Gathering,80 (HTTP),Lists streaming media resources exposed by VLCStreamers on a web server.
+http-vmware-path-vuln,Vulnerability,80 (HTTP),Detects VMware path traversal vulnerabilities that may expose sensitive files or configurations.
+http-vuln-cve2006-3392,Vulnerability,80 (HTTP),Exploits a vulnerability in Microsoft IIS to gain unauthorized access.
+http-vuln-cve2009-3960,Vulnerability,80 (HTTP),Exploits a buffer overflow vulnerability in Microsoft IIS servers (CVE-2009-3960).
+http-vuln-cve2010-0738,Vulnerability,80 (HTTP),Exploits a vulnerability in PHP through an insecure deserialization vulnerability (CVE-2010-0738).
+http-vuln-cve2010-2861,Vulnerability,80 (HTTP),Exploits a vulnerability in Joomla! related to SQL injection (CVE-2010-2861).
+http-vuln-cve2011-3192,Vulnerability,80 (HTTP),Exploits a vulnerability in Adobe ColdFusion to allow remote code execution (CVE-2011-3192).
+http-vuln-cve2011-3368,Vulnerability,80 (HTTP),Exploits a vulnerability in Apache Struts that could allow remote code execution (CVE-2011-3368).
+http-vuln-cve2012-1823,Vulnerability,80 (HTTP),Exploits a vulnerability in Cisco Adaptive Security Appliances (ASA) (CVE-2012-1823).
+http-vuln-cve2013-0156,Vulnerability,80 (HTTP),Exploits a vulnerability in the WordPress plugin that could lead to remote code execution (CVE-2013-0156).
+http-vuln-cve2013-6786,Vulnerability,80 (HTTP),Exploits a vulnerability in WordPress (CVE-2013-6786) affecting user authentication.
+http-vuln-cve2013-7091,Vulnerability,80 (HTTP),Exploits a vulnerability in certain PHP versions that could allow remote code execution (CVE-2013-7091).
+http-vuln-cve2014-2126,Vulnerability,80 (HTTP),Exploits a vulnerability in VMware (CVE-2014-2126) that could allow unauthorized access.
+http-vuln-cve2014-2127,Vulnerability,80 (HTTP),Exploits a vulnerability in VMware (CVE-2014-2127) affecting vCenter Server.
+http-vuln-cve2014-2128,Vulnerability,80 (HTTP),Exploits a vulnerability in VMware (CVE-2014-2128) affecting ESXi hosts.
+http-vuln-cve2014-2129,Vulnerability,80 (HTTP),Exploits a vulnerability in VMware vSphere (CVE-2014-2129).
+http-vuln-cve2014-3704,Vulnerability,80 (HTTP),Exploits a vulnerability in Oracle WebLogic Server (CVE-2014-3704).
+http-vuln-cve2014-8877,Vulnerability,80 (HTTP),Exploits a vulnerability in Windows Server (CVE-2014-8877) that could allow remote code execution.
+http-vuln-cve2015-1427,Vulnerability,80 (HTTP),Exploits a vulnerability in Apache OpenOffice (CVE-2015-1427).
+http-vuln-cve2015-1635,Vulnerability,80 (HTTP),Exploits a vulnerability in Apache Struts 2 (CVE-2015-1635) that could allow remote code execution.
+http-vuln-cve2017-1001000,Vulnerability,80 (HTTP),Exploits a vulnerability in various web services (CVE-2017-1001000).
+http-vuln-cve2017-5638,Vulnerability,80 (HTTP),Exploits a vulnerability in Apache Struts 2 (CVE-2017-5638) that allows remote code execution.
+http-vuln-cve2017-5689,Vulnerability,80 (HTTP),Exploits a vulnerability in Apache Struts 2 (CVE-2017-5689) for remote code execution via crafted HTTP requests.
+http-vuln-cve2017-8917,Vulnerability,80 (HTTP),Exploits a vulnerability in Microsoft IIS that could allow an attacker to perform a DoS attack (CVE-2017-8917).
+http-vuln-misfortune-cookie,Vulnerability,80 (HTTP),Exploits a vulnerability in certain versions of OpenSSL to leak private keys (Misfortune Cookie).
+http-vuln-wnr1000-creds,Vulnerability,80 (HTTP),Exploits a vulnerability in Netgear WNR1000 devices that exposes credentials in the web interface.
+http-waf-detect,Information Gathering,80 (HTTP),Detects the presence of a web application firewall (WAF) on the target server.
+http-waf-fingerprint,Information Gathering,80 (HTTP),Identifies specific web application firewalls (WAFs) and their versions based on server response patterns.
+http-webdav-scan,Information Gathering,80 (HTTP),Scans for WebDAV enabled servers to discover potential vulnerabilities or misconfigurations.
+http-wordpress-brute,Brute Force,80 (HTTP),Attempts to brute force login credentials for WordPress sites.
+http-wordpress-enum,Information Gathering,80 (HTTP),"Enumerates WordPress users, plugins, and other valuable information to aid in security assessments."
+http-wordpress-users,Information Gathering,80 (HTTP),Extracts a list of users from WordPress websites to aid in further exploitation.
+http-xssed,Vulnerability,80 (HTTP),Checks for cross-site scripting (XSS) vulnerabilities in HTTP response content.
+https-redirect,Information Gathering,443 (HTTPS),Detects whether HTTP-to-HTTPS redirects are configured on the target web server.
+iax2-brute,Brute Force,4569 (IAX2),Attempts to brute-force credentials for IAX2 (Inter-Asterisk Exchange) protocol.
+iax2-version,Information Gathering,4569 (IAX2),Queries the version of the IAX2 service running on a target system.
+icap-info,Information Gathering,1344 (ICAP),Gathers information about ICAP (Internet Content Adaptation Protocol) servers.
+iec-identify,Information Gathering,48899 (IEC),Identifies and gathers information about IEC (Industrial Ethernet Communication) devices.
+ike-version,Information Gathering,500 (IKE),Identifies the version of IKE (Internet Key Exchange) being used in IPsec VPNs.
+imap-brute,Brute Force,"143, 993 (IMAP)",Attempts to brute-force login credentials for IMAP email servers.
+imap-capabilities,Information Gathering,"143, 993 (IMAP)",Queries an IMAP server to determine its capabilities and supported features.
+imap-ntlm-info,Information Gathering,"143, 993 (IMAP)",Retrieves NTLM authentication details from an IMAP server.
+impress-remote-discover,Information Gathering,443 (HTTPS),Discovers Impress (presentation software) remote services by identifying available servers.
+informix-brute,Brute Force,1526 (Informix),Attempts to brute-force login credentials for Informix database servers.
+informix-query,Information Gathering,1526 (Informix),Executes queries on an Informix database to gather information.
+informix-tables,Information Gathering,1526 (Informix),Retrieves table names from an Informix database.
+ip-forwarding,Information Gathering,All Ports,Checks if IP forwarding is enabled on the target system.
+ip-geolocation-geoplugin,Information Gathering,All Ports,Retrieves geolocation information using the GeoPlugin API based on the target IP address.
+ip-geolocation-ipinfodb,Information Gathering,All Ports,Retrieves geolocation information from the IPInfoDB API based on the target IP address.
+ip-geolocation-map-bing,Information Gathering,All Ports,Displays geolocation information of an IP address on Bing Maps.
+ip-geolocation-map-google,Information Gathering,All Ports,Displays geolocation information of an IP address on Google Maps.
+ip-geolocation-map-kml,Information Gathering,All Ports,Generates a KML (Keyhole Markup Language) file displaying geolocation of an IP address.
+ip-geolocation-maxmind,Information Gathering,All Ports,Retrieves geolocation information from MaxMind's GeoIP2 database based on the target IP.
+ip-https-discover,Information Gathering,443 (HTTPS),Detects whether HTTPS (SSL/TLS) is enabled on the target server.
+ipidseq,Information Gathering,All Ports,Identifies the sequence numbers of IP packets to detect operating systems and network devices.
+ipmi-brute,Brute Force,623 (IPMI),Attempts to brute-force login credentials for IPMI (Intelligent Platform Management Interface) servers.
+ipmi-cipher-zero,Vulnerability,623 (IPMI),Exploits a known vulnerability in IPMI by using a cipher-zero method for authentication.
+ipmi-version,Information Gathering,623 (IPMI),Queries an IPMI device to determine its version.
+ipv6-multicast-mld-list,Information Gathering,123 (Multicast),Queries for multicast group membership using the MLD (Multicast Listener Discovery) protocol.
+ipv6-node-info,Information Gathering,All Ports,Gathers information about IPv6 node capabilities.
+ipv6-ra-flood,DoS Attack,All Ports,Floods the network with IPv6 Router Advertisements (RAs) to disrupt the network.
+irc-botnet-channels,Information Gathering,6660-6669 (IRC),Enumerates botnet channels on IRC servers by analyzing known IRC server ports.
+irc-brute,Brute Force,6660-6669 (IRC),Attempts to brute-force IRC user credentials.
+irc-info,Information Gathering,6660-6669 (IRC),Gathers general information about IRC servers.
+irc-sasl-brute,Brute Force,6660-6669 (IRC),Attempts to brute-force SASL authentication credentials for IRC servers.
+irc-unrealircd-backdoor,Exploitation,6660-6669 (IRC),Exploits the UnrealIRCd backdoor vulnerability (CVE-2010-2075) to gain unauthorized access.
+iscsi-brute,Brute Force,3260 (iSCSI),Attempts to brute-force login credentials for iSCSI (Internet Small Computer System Interface) devices.
+iscsi-info,Information Gathering,3260 (iSCSI),Queries iSCSI devices for information about their configurations.
+isns-info,Information Gathering,3205 (ISNS),Queries ISNS (Internet Storage Name Service) servers for information.
+jdwp-exec,Exploitation,8000 (Java Debug Wire Protocol),Executes a command on a target Java application via JDWP (Java Debug Wire Protocol).
+jdwp-info,Information Gathering,8000 (Java Debug Wire Protocol),Gathers information about a Java process using JDWP.
+jdwp-inject,Exploitation,8000 (Java Debug Wire Protocol),Injects malicious code into a running Java process via JDWP.
+jdwp-version,Information Gathering,8000 (Java Debug Wire Protocol),Retrieves the JDWP version from a target Java application.
+knx-gateway-discover,Information Gathering,3671 (KNX),Discovers KNX (Konnex) gateways used in home automation systems.
+knx-gateway-info,Information Gathering,3671 (KNX),Retrieves information about KNX gateways used in building automation.
+krb5-enum-users,Brute Force,88 (Kerberos),Enumerates users in a Kerberos authentication system.
+ldap-brute,Brute Force,389 (LDAP),Attempts to brute-force LDAP login credentials.
+ldap-novell-getpass,Information Gathering,389 (LDAP),Retrieves Novell NetWare passwords from an LDAP directory.
+ldap-rootdse,Information Gathering,389 (LDAP),Queries the root DSE (Directory Service Entry) in an LDAP server to gather information.
+ldap-search,Information Gathering,389 (LDAP),Performs a search query on an LDAP server to gather directory information.
+lexmark-config,Information Gathering,9100 (Lexmark),Queries the configuration of a Lexmark printer.
+llmnr-resolve,Information Gathering,5355 (LLMNR),Resolves hostnames using LLMNR (Link-Local Multicast Name Resolution).
+lltd-discovery,Information Gathering,"137, 138, 139 (LLTD)",Discovers devices on a local network using the Link Layer Topology Discovery (LLTD) protocol.
+lu-enum,Information Gathering,"1812, 1813 (LU)",Enumerates users on a target LU (Linux User) system.
+maxdb-info,Information Gathering,5000 (MaxDB),Gathers information from a MaxDB database server.
+mcafee-epo-agent,Information Gathering,1433 (McAfee EPO),Retrieves information from a McAfee ePO agent.
+membase-brute,Brute Force,8091 (Membase),Attempts to brute-force Membase login credentials.
+membase-http-info,Information Gathering,8091 (Membase),Retrieves HTTP information from a Membase server.
+memcached-info,Information Gathering,11211 (Memcached),Retrieves information about a Memcached server.
+metasploit-info,Information Gathering,Varies (Metasploit),Gathers information from a Metasploit Framework instance.
+metasploit-msgrpc-brute,Brute Force,55553 (Metasploit MSRPC),Attempts to brute-force Metasploit MSRPC login credentials.
+metasploit-xmlrpc-brute,Brute Force,55553 (Metasploit XMLRPC),Attempts to brute-force XMLRPC login credentials for Metasploit.
+mikrotik-routeros-brute,Brute Force,8291 (MikroTik RouterOS),Attempts to brute-force login credentials for MikroTik RouterOS devices.
+mmouse-brute,Brute Force,17723 (M-Mouse),Attempts to brute-force login credentials for M-Mouse devices.
+mmouse-exec,Exploitation,17723 (M-Mouse),Executes a command on an M-Mouse device.
+modbus-discover,Information Gathering,502 (Modbus),Discovers Modbus devices on a network.
+mongodb-brute,Brute Force,27017 (MongoDB),Attempts to brute-force MongoDB login credentials.
+mongodb-databases,Information Gathering,27017 (MongoDB),Retrieves a list of databases from a MongoDB server.
+mongodb-info,Information Gathering,27017 (MongoDB),Retrieves information about a MongoDB server.
+mqtt-subscribe,Information Gathering,1883 (MQTT),Subscribes to topics on an MQTT broker to gather data.
+mrinfo,Information Gathering,520 (MRINFO),Gathers information from a network using MRINFO (Multicast Router Information Protocol).
+ms-sql-brute,Brute Force,1433 (MS-SQL),Attempts to brute-force Microsoft SQL Server login credentials.
+ms-sql-config,Information Gathering,1433 (MS-SQL),Retrieves configuration information from a Microsoft SQL Server.
+ms-sql-dac,Exploitation,1433 (MS-SQL),Attempts to connect to Microsoft SQL Server using Dedicated Admin Connection (DAC).
+ms-sql-dump-hashes,Information Gathering,1433 (MS-SQL),Dumps the hashes of SQL Server login credentials.
+ms-sql-empty-password,Brute Force,1433 (MS-SQL),Attempts to connect to Microsoft SQL Server with an empty password.
+ms-sql-hasdbaccess,Information Gathering,1433 (MS-SQL),Checks if a SQL Server instance allows access to the database using Windows Authentication.
+ms-sql-info,Information Gathering,1433 (MS-SQL),Gathers basic information from a Microsoft SQL Server.
+ms-sql-ntlm-info,Information Gathering,1433 (MS-SQL),Gathers NTLM authentication information from a Microsoft SQL Server.
+ms-sql-query,Information Gathering,1433 (MS-SQL),Executes a query on a Microsoft SQL Server to gather data.
+ms-sql-tables,Information Gathering,1433 (MS-SQL),Retrieves the list of tables from a Microsoft SQL Server.
+ms-sql-xp-cmdshell,Exploitation,1433 (MS-SQL),Executes commands on a Microsoft SQL Server instance using xp_cmdshell.
+msrpc-enum,Information Gathering,135 (MSRPC),Enumerates information from Microsoft RPC (Remote Procedure Call) services.
+mtrace,Information Gathering,33434-33534 (Mtrace),Retrieves multicast routing information from a network.
+murmur-version,Information Gathering,64738 (Murmur),Retrieves the version of a Murmur (Mumble) server.
+mysql-audit,Information Gathering,3306 (MySQL),Audits a MySQL server for vulnerabilities and misconfigurations.
+mysql-brute,Brute Force,3306 (MySQL),Attempts to brute-force MySQL login credentials.
+mysql-databases,Information Gathering,3306 (MySQL),Retrieves a list of databases from a MySQL server.
+mysql-dump-hashes,Information Gathering,3306 (MySQL),Dumps the hashes of MySQL login credentials.
+mysql-empty-password,Brute Force,3306 (MySQL),Attempts to connect to a MySQL server with an empty password.
+mysql-enum,Information Gathering,3306 (MySQL),Enumerates users and databases from a MySQL server.
+mysql-info,Information Gathering,3306 (MySQL),Retrieves information about a MySQL server.
+mysql-query,Information Gathering,3306 (MySQL),Executes a query on a MySQL server to gather data.
+mysql-users,Information Gathering,3306 (MySQL),Retrieves a list of users from a MySQL server.
+mysql-variables,Information Gathering,3306 (MySQL),Retrieves the MySQL system variables from a MySQL server.
+mysql-vuln-cve2012-2122,Exploitation,3306 (MySQL),Exploits CVE-2012-2122 vulnerability in MySQL for remote code execution.
+nat-pmp-info,Information Gathering,5351 (NAT-PMP),Retrieves information about NAT-PMP (Network Address Translation Port Mapping) devices.
+nat-pmp-mapport,Information Gathering,5351 (NAT-PMP),Maps ports through a NAT-PMP device.
+nbd-info,Information Gathering,10809 (NBD),Retrieves information from a Network Block Device (NBD) server.
+nbns-interfaces,Information Gathering,137 (NBNS),Enumerates interfaces using NetBIOS Name Service (NBNS).
+nbstat,Information Gathering,137 (NBNS),Retrieves NetBIOS statistics from a target machine.
+ncp-enum-users,Information Gathering,524 (NCP),Enumerates users from a Novell NetWare server.
+ncp-serverinfo,Information Gathering,524 (NCP),Retrieves server information from a Novell NetWare server.
+ndmp-fs-info,Information Gathering,10000 (NDMP),Retrieves file system information from a NDMP server.
+ndmp-version,Information Gathering,10000 (NDMP),Retrieves version information from a NDMP server.
+nessus-brute,Brute Force,Varies (Nessus),Attempts to brute-force login credentials for a Nessus server.
+nessus-xmlrpc-brute,Brute Force,Varies (Nessus XMLRPC),Attempts to brute-force XMLRPC login credentials for a Nessus server.
+netbus-auth-bypass,Exploitation,12345 (NetBus),Bypasses authentication for a NetBus server.
+netbus-brute,Brute Force,12345 (NetBus),Attempts to brute-force login credentials for a NetBus server.
+netbus-info,Information Gathering,12345 (NetBus),Retrieves information from a NetBus server.
+netbus-version,Information Gathering,12345 (NetBus),Retrieves version information from a NetBus server.
+nexpose-brute,Brute Force,3780 (Nexpose),Attempts to brute-force login credentials for a Nexpose server.
+nfs-ls,Information Gathering,2049 (NFS),Lists files on an NFS server.
+nfs-showmount,Information Gathering,2049 (NFS),Shows mounted NFS shares from a server.
+nfs-statfs,Information Gathering,2049 (NFS),Retrieves file system statistics from an NFS server.
+nje-node-brute,Brute Force,Varies (NJE),Attempts to brute-force NJE (Network Job Entry) node login credentials.
+nje-pass-brute,Brute Force,Varies (NJE),Attempts to brute-force NJE (Network Job Entry) password credentials.
+nntp-ntlm-info,Information Gathering,119 (NNTP),Retrieves NTLM authentication information from an NNTP server.
+nping-brute,Brute Force,Varies (Nping),Attempts to brute-force Nping (network pinging) credentials.
+nrpe-enum,Information Gathering,5666 (NRPE),Enumerates available plugins and options from an NRPE (Nagios Remote Plugin Executor) server.
+ntp-info,Information Gathering,123 (NTP),Retrieves information from an NTP (Network Time Protocol) server.
+ntp-monlist,Exploitation,123 (NTP),Exploits NTP servers with the monlist command to retrieve a list of recent clients.
+omp2-brute,Brute Force,Varies (OMP2),Attempts to brute-force login credentials for an OMP2 (Open Management Protocol) server.
+omp2-enum-targets,Information Gathering,Varies (OMP2),Enumerates targets for an OMP2 server.
+omron-info,Information Gathering,Varies (Omron),Retrieves information from an Omron PLC (Programmable Logic Controller).
+openflow-info,Information Gathering,Varies (OpenFlow),Retrieves information about OpenFlow controllers and switches.
+openlookup-info,Information Gathering,Varies (OpenLookup),Retrieves information from OpenLookup servers.
+openvas-otp-brute,Brute Force,Varies (OpenVAS),Attempts to brute-force one-time password (OTP) login for an OpenVAS server.
+openwebnet-discovery,Discovery,Varies (OpenWebNet),Discovers devices using the OpenWebNet protocol.
+oracle-brute,Brute Force,Varies (Oracle),Attempts to brute-force login credentials for an Oracle database.
+oracle-brute-stealth,Brute Force,Varies (Oracle),Attempts to brute-force login credentials for an Oracle database stealthily.
+oracle-enum-users,Information Gathering,Varies (Oracle),Enumerates users on an Oracle database.
+oracle-sid-brute,Brute Force,Varies (Oracle),Attempts to brute-force Oracle SID (System Identifier) to access the database.
+oracle-tns-version,Information Gathering,Varies (Oracle),Retrieves version information from an Oracle TNS (Transparent Network Substrate) listener.
+ovs-agent-version,Information Gathering,Varies (OVS),Retrieves version information from an Open vSwitch (OVS) agent.
+p2p-conficker,Malware Detection,Varies (P2P),Detects and identifies systems infected with the Conficker P2P malware.
+path-mtu,Information Gathering,Varies (Network),Determines the maximum transmission unit (MTU) for a network path.
+pcanywhere-brute,Brute Force,5631 (PCAnywhere),Attempts to brute-force login credentials for a PCAnywhere server.
+pcworx-info,Information Gathering,Varies (PCWorx),Retrieves information from a PCWorx automation server.
+pgsql-brute,Brute Force,5432 (PostgreSQL),Attempts to brute-force login credentials for a PostgreSQL server.
+pjl-ready-message,Information Gathering,Varies (PJL),Retrieves the ready message from a printer using Printer Job Language (PJL).
+pop3-brute,Brute Force,110 (POP3),Attempts to brute-force login credentials for a POP3 mail server.
+pop3-capabilities,Information Gathering,110 (POP3),Enumerates capabilities of a POP3 mail server.
+pop3-ntlm-info,Information Gathering,110 (POP3),Retrieves NTLM authentication information from a POP3 mail server.
+port-states,Information Gathering,Varies (Ports),Queries the states of open ports on a target machine.
+pptp-version,Information Gathering,1723 (PPTP),Retrieves version information from a PPTP (Point-to-Point Tunneling Protocol) server.
+puppet-naivesigning,Exploitation,Varies (Puppet),Attempts to exploit naive signing in Puppet (automation framework) servers.
+qconn-exec,Exploitation,Varies (Qconn),Executes commands on a Qconn server (used by QNX OS).
+qscan,Information Gathering,Varies (Qscan),Scans for QNX nodes on a network.
+quake1-info,Information Gathering,Varies (Quake1),Retrieves server information from a Quake1 game server.
+quake3-info,Information Gathering,Varies (Quake3),Retrieves server information from a Quake3 game server.
+quake3-master-getservers,Information Gathering,Varies (Quake3),Retrieves a list of Quake3 game servers from a master server.
+rdp-enum-encryption,Information Gathering,3389 (RDP),Enumerates encryption settings for Remote Desktop Protocol (RDP) servers.
+rdp-ntlm-info,Information Gathering,3389 (RDP),Retrieves NTLM authentication information from an RDP server.
+rdp-vuln-ms12-020,Vulnerability Scanning,3389 (RDP),Checks for the MS12-020 vulnerability in Remote Desktop Protocol (RDP).
+realvnc-auth-bypass,Exploitation,5900 (VNC),Exploits authentication bypass in RealVNC servers.
+redis-brute,Brute Force,6379 (Redis),Attempts to brute-force login credentials for a Redis server.
+redis-info,Information Gathering,6379 (Redis),Retrieves information about a Redis server.
+resolveall,Information Gathering,Varies (DNS),Resolves all domains in a list and provides detailed results.
+reverse-index,Information Gathering,Varies (Network),Scans a target network for reverse DNS records and index them.
+rexec-brute,Brute Force,512 (Rexec),Attempts to brute-force login credentials for a Rexec service.
+rfc868-time,Information Gathering,37 (RFC 868 Time),Retrieves the time from a server that uses RFC 868 protocol.
+riak-http-info,Information Gathering,Varies (Riak),Retrieves information from a Riak NoSQL database using HTTP.
+rlogin-brute,Brute Force,513 (Rlogin),Attempts to brute-force login credentials for an Rlogin server.
+rmi-dumpregistry,Information Gathering,Varies (RMI),Dumps the registry of remote objects from an RMI (Remote Method Invocation) server.
+rmi-vuln-classloader,Vulnerability Scanning,Varies (RMI),Checks for the classloader vulnerability in RMI servers.
+rpc-grind,Information Gathering,Varies (RPC),Gathers information from an RPC service.
+rpcap-brute,Brute Force,135 (RPC),Attempts to brute-force login credentials for an RPC service.
+rpcap-info,Information Gathering,135 (RPC),Retrieves information from an RPC service.
+rpcinfo,Information Gathering,111 (RPC),Retrieves information about RPC services running on a remote machine.
+rsa-vuln-roca,Vulnerability Scanning,Varies (RSA),Checks for the ROCA vulnerability in RSA key generation.
+rsync-brute,Brute Force,873 (Rsync),Attempts to brute-force login credentials for an Rsync server.
+rsync-list-modules,Information Gathering,873 (Rsync),Retrieves a list of available modules on an Rsync server.
+rtsp-methods,Information Gathering,554 (RTSP),Enumerates methods supported by a Real-Time Streaming Protocol (RTSP) server.
+rtsp-url-brute,Brute Force,554 (RTSP),Attempts to brute-force URLs on an RTSP server.
+rusers,Information Gathering,Varies (Network),Queries a system for users logged into a remote host.
+s7-info,Information Gathering,102 (S7),Retrieves information about a Siemens S7 PLC system.
+samba-vuln-cve-2012-1182,Vulnerability Scanning,"139, 445 (Samba)","Checks for the Samba vulnerability CVE-2012-1182, which allows remote code execution."
+servicetags,Information Gathering,Varies (Network),Retrieves system information using Dell Service Tags.
+shodan-api,Information Gathering,Varies (API),"Uses the Shodan API to gather information about IPs, devices, and services."
+sip-brute,Brute Force,5060 (SIP),Attempts to brute-force login credentials for a SIP server.
+sip-call-spoof,Exploitation,5060 (SIP),Attempts to spoof calls on a SIP server.
+sip-enum-users,Information Gathering,5060 (SIP),Enumerates users on a SIP server.
+sip-methods,Information Gathering,5060 (SIP),Enumerates supported methods on a SIP server.
+skypev2-version,Information Gathering,443 (Skype),Retrieves version information from a Skype v2 server.
+smb-brute,Brute Force,"139, 445 (SMB)",Attempts to brute-force login credentials for an SMB server.
+smb-double-pulsar-backdoor,Exploitation,445 (SMB),Exploits the Double Pulsar SMB backdoor vulnerability.
+smb-enum-domains,Information Gathering,"139, 445 (SMB)",Enumerates domains available on an SMB server.
+smb-enum-groups,Information Gathering,"139, 445 (SMB)",Enumerates groups on an SMB server.
+smb-enum-processes,Information Gathering,"139, 445 (SMB)",Enumerates processes running on an SMB server.
+smb-enum-services,Information Gathering,"139, 445 (SMB)",Enumerates services on an SMB server.
+smb-enum-sessions,Information Gathering,"139, 445 (SMB)",Enumerates sessions connected to an SMB server.
+smb-enum-shares,Information Gathering,"139, 445 (SMB)",Enumerates shared resources on an SMB server.
+smb-enum-users,Information Gathering,"139, 445 (SMB)",Enumerates users on an SMB server.
+smb-flood,Denial of Service,"139, 445 (SMB)",Floods an SMB server with requests to cause denial of service.
+smb-ls,Information Gathering,"139, 445 (SMB)",Lists files and directories on an SMB server.
+smb-mbenum,Information Gathering,"139, 445 (SMB)",Enumerates resources on a Microsoft SMB server.
+smb-os-discovery,Information Gathering,"139, 445 (SMB)",Detects the operating system of an SMB server.
+smb-print-text,Information Gathering,"139, 445 (SMB)",Retrieves printer text from an SMB server.
+smb-protocols,Information Gathering,"139, 445 (SMB)",Retrieves supported protocols from an SMB server.
+smb-psexec,Exploitation,"139, 445 (SMB)",Executes commands on an SMB server using PsExec.
+smb-security-mode,Information Gathering,"139, 445 (SMB)",Retrieves security mode information from an SMB server.
+smb-server-stats,Information Gathering,"139, 445 (SMB)",Retrieves server statistics from an SMB server.
+smb-system-info,Information Gathering,"139, 445 (SMB)",Retrieves system information from an SMB server.
+smb-vuln-conficker,Vulnerability Scanning,"139, 445 (SMB)",Checks for the Conficker worm vulnerability in SMB servers.
+smb-vuln-cve-2017-7494,Vulnerability Scanning,"139, 445 (SMB)",Checks for the SMB vulnerability CVE-2017-7494 that allows remote code execution.
+smb-vuln-cve2009-3103,Vulnerability Scanning,"139, 445 (SMB)",Checks for the SMB vulnerability CVE-2009-3103 which allows remote code execution.
+smb-vuln-ms06-025,Vulnerability Scanning,"139, 445 (SMB)",Checks for the MS06-025 vulnerability in SMB servers.
+smb-vuln-ms07-029,Vulnerability Scanning,"139, 445 (SMB)",Checks for the MS07-029 vulnerability in SMB servers.
+smb-vuln-ms08-067,Vulnerability Scanning,"139, 445 (SMB)",Checks for the MS08-067 vulnerability in SMB servers.
+smb-vuln-ms10-054,Vulnerability Scanning,"139, 445 (SMB)",Checks for the MS10-054 vulnerability in SMB servers.
+smb-vuln-ms10-061,Vulnerability Scanning,"139, 445 (SMB)",Checks for the MS10-061 vulnerability in SMB servers.
+smb-vuln-ms17-010,Vulnerability Scanning,"139, 445 (SMB)",Checks for the MS17-010 vulnerability in SMB servers (EternalBlue).
+smb-vuln-regsvc-dos,Denial of Service,"139, 445 (SMB)",Exploits a Denial of Service vulnerability in SMB servers.
+smb-vuln-webexec,Vulnerability Scanning,"139, 445 (SMB)",Checks for the WebExec vulnerability in SMB servers.
+smb-webexec-exploit,Exploitation,"139, 445 (SMB)",Exploits the WebExec vulnerability in SMB servers.
+smb2-capabilities,Information Gathering,445 (SMB2),Retrieves SMB2 capabilities from an SMB server.
+smb2-security-mode,Information Gathering,445 (SMB2),Retrieves security mode of SMB2 server.
+smb2-time,Information Gathering,445 (SMB2),Retrieves time information from an SMB2 server.
+smb2-vuln-uptime,Vulnerability Scanning,445 (SMB2),Checks for SMB2 uptime vulnerability in SMB servers.
+smtp-brute,Brute Force,25 (SMTP),Attempts to brute-force login credentials for an SMTP server.
+smtp-commands,Information Gathering,25 (SMTP),Retrieves supported commands from an SMTP server.
+smtp-enum-users,Information Gathering,25 (SMTP),Enumerates users on an SMTP server.
+smtp-ntlm-info,Information Gathering,25 (SMTP),Retrieves NTLM authentication information from an SMTP server.
+smtp-open-relay,Information Gathering,25 (SMTP),Checks if an SMTP server is open for relaying emails.
+smtp-strangeport,Information Gathering,25 (SMTP),Detects strange ports or behavior in SMTP traffic.
+smtp-vuln-cve2010-4344,Vulnerability Scanning,25 (SMTP),Checks for the SMTP vulnerability CVE-2010-4344.
+smtp-vuln-cve2011-1720,Vulnerability Scanning,25 (SMTP),Checks for the SMTP vulnerability CVE-2011-1720.
+smtp-vuln-cve2011-1764,Vulnerability Scanning,25 (SMTP),Checks for the SMTP vulnerability CVE-2011-1764.
+sniffer-detect,Detection,Varies (Network),Detects the presence of network sniffers on the network.
+snmp-brute,Brute Force,161 (SNMP),Attempts to brute-force login credentials for an SNMP service.
+snmp-hh3c-logins,Brute Force,161 (SNMP),Attempts to brute-force login credentials for HH3C SNMP devices.
+snmp-info,Information Gathering,161 (SNMP),Retrieves information about an SNMP device.
+snmp-interfaces,Information Gathering,161 (SNMP),Lists network interfaces via SNMP.
+snmp-ios-config,Information Gathering,161 (SNMP),Retrieves the configuration of Cisco IOS devices via SNMP.
+snmp-netstat,Information Gathering,161 (SNMP),Retrieves network statistics via SNMP.
+snmp-processes,Information Gathering,161 (SNMP),Retrieves a list of running processes via SNMP.
+snmp-sysdescr,Information Gathering,161 (SNMP),Retrieves the system description of an SNMP device.
+snmp-win32-services,Information Gathering,161 (SNMP),Retrieves Windows services list via SNMP.
+snmp-win32-shares,Information Gathering,161 (SNMP),Retrieves Windows shared resources list via SNMP.
+snmp-win32-software,Information Gathering,161 (SNMP),Retrieves a list of installed software via SNMP on Windows machines.
+snmp-win32-users,Information Gathering,161 (SNMP),Retrieves Windows users list via SNMP.
+socks-auth-info,Information Gathering,1080 (SOCKS),Retrieves authentication information from a SOCKS proxy.
+socks-brute,Brute Force,1080 (SOCKS),Attempts to brute-force login credentials for a SOCKS proxy server.
+socks-open-proxy,Information Gathering,1080 (SOCKS),Checks if a SOCKS proxy server is open to relay traffic.
+ssh-auth-methods,Information Gathering,22 (SSH),Enumerates the authentication methods supported by an SSH server.
+ssh-brute,Brute Force,22 (SSH),Attempts to brute-force login credentials for an SSH server.
+ssh-hostkey,Information Gathering,22 (SSH),Retrieves the SSH host key of a server.
+ssh-publickey-acceptance,Information Gathering,22 (SSH),Checks if an SSH server accepts public key authentication.
+ssh-run,Remote Execution,22 (SSH),Executes commands remotely on a server via SSH.
+ssh2-enum-algos,Information Gathering,22 (SSH),Enumerates the encryption algorithms supported by an SSH server.
+sshv1,Vulnerability Scanning,22 (SSH),Detects if SSHv1 (an insecure version) is being used on the server.
+ssl-ccs-injection,Exploitation,443 (SSL),Exploits the SSL/TLS CCS Injection vulnerability (CVE-2014-0224).
+ssl-cert,Information Gathering,443 (SSL),Retrieves SSL certificate information from a server.
+ssl-cert-intaddr,Information Gathering,443 (SSL),Retrieves SSL certificate information including internal IP addresses.
+ssl-date,Information Gathering,443 (SSL),Retrieves the SSL certificate's validity dates.
+ssl-dh-params,Information Gathering,443 (SSL),Retrieves the Diffie-Hellman parameters used in SSL/TLS handshake.
+ssl-enum-ciphers,Information Gathering,443 (SSL),Enumerates the ciphers supported by an SSL/TLS server.
+ssl-heartbleed,Vulnerability Scanning,443 (SSL),Checks for the Heartbleed vulnerability (CVE-2014-0160) in SSL/TLS servers.
+ssl-known-key,Information Gathering,443 (SSL),Checks if a known SSL private key is being used by a server.
+ssl-poodle,Vulnerability Scanning,443 (SSL),Checks for the POODLE SSL vulnerability (CVE-2014-3566).
+sslv2,Vulnerability Scanning,443 (SSL),Detects if SSLv2 (an insecure version) is being used on a server.
+sslv2-drown,Vulnerability Scanning,443 (SSL),Detects if a server is vulnerable to the DROWN attack (CVE-2016-0800).
+sstp-discover,Information Gathering,443 (SSTP),Discovers Secure Socket Tunneling Protocol (SSTP) server.
+stun-info,Information Gathering,3478 (STUN),"Retrieves information from a STUN server, typically used for NAT traversal."
+stun-version,Information Gathering,3478 (STUN),Retrieves the version of a STUN server.
+stuxnet-detect,Malware Detection,Varies (Network),Detects the presence of the Stuxnet malware on a network.
+supermicro-ipmi-conf,Information Gathering,623 (IPMI),Retrieves IPMI configuration information from Supermicro devices.
+svn-brute,Brute Force,3690 (SVN),Attempts to brute-force login credentials for an SVN server.
+targets-asn,Information Gathering,Varies (Network),Retrieves ASN (Autonomous System Number) information for a given IP address or domain.
+targets-ipv6-map4to6,Information Gathering,Varies (Network),Maps IPv4 addresses to IPv6 addresses for targets.
+targets-ipv6-multicast-echo,Information Gathering,123 (NTP),Sends multicast echo requests to IPv6 targets.
+targets-ipv6-multicast-invalid-dst,Information Gathering,Varies (Network),Detects invalid destination addresses in IPv6 multicast.
+targets-ipv6-multicast-mld,Information Gathering,Varies (Network),Monitors IPv6 multicast listener discovery (MLD) traffic.
+targets-ipv6-multicast-slaac,Information Gathering,Varies (Network),Checks IPv6 Stateless Address Autoconfiguration (SLAAC) for multicast traffic.
+targets-ipv6-wordlist,Information Gathering,Varies (Network),Performs a wordlist-based scan for IPv6 addresses.
+targets-sniffer,Detection,Varies (Network),Detects the presence of network sniffers on the target network.
+targets-traceroute,Information Gathering,Varies (Network),Performs a traceroute to determine the network path to the target.
+targets-xml,Information Gathering,Varies (Network),Retrieves target information in XML format.
+teamspeak2-version,Information Gathering,8767 (Teamspeak),Retrieves the version of a TeamSpeak 2 server.
+telnet-brute,Brute Force,23 (Telnet),Attempts to brute-force login credentials for a Telnet service.
+telnet-encryption,Information Gathering,23 (Telnet),Checks the encryption methods supported by a Telnet service.
+telnet-ntlm-info,Information Gathering,23 (Telnet),Retrieves NTLM (Windows) authentication information from a Telnet server.
+tftp-enum,Information Gathering,69 (TFTP),Enumerates files on a TFTP (Trivial File Transfer Protocol) server.
+tls-alpn,Information Gathering,443 (SSL/TLS),Enumerates ALPN (Application-Layer Protocol Negotiation) protocols supported by the server.
+tls-nextprotoneg,Information Gathering,443 (SSL/TLS),Checks for support of Next Protocol Negotiation (NPN) in TLS/SSL connections.
+tls-ticketbleed,Vulnerability Scanning,443 (SSL/TLS),Detects the Ticketbleed vulnerability in SSL/TLS servers (CVE-2016-9244).
+tn3270-screen,Information Gathering,23 (TN3270),Retrieves the screen content of a TN3270 (IBM terminal) service.
+tor-consensus-checker,Information Gathering,Varies (Network),Checks the consensus information of the Tor network.
+traceroute-geolocation,Information Gathering,Varies (Network),Performs a traceroute with geolocation information for the route.
+tso-brute,Brute Force,Varies (Network),Attempts to brute-force login credentials for TSO (Terminal Services).
+tso-enum,Information Gathering,Varies (Network),Enumerates Terminal Services (TSO) on a server.
+ubiquiti-discovery,Information Gathering,Varies (Network),Discovers Ubiquiti network devices in the local network.
+unittest,Information Gathering,Varies (Network),Runs unit tests on scripts to ensure proper functioning.
+unusual-port,Information Gathering,Varies (Network),Detects services running on uncommon ports.
+upnp-info,Information Gathering,1900 (UPnP),Retrieves information from UPnP (Universal Plug and Play) devices.
+uptime-agent-info,Information Gathering,Varies (Network),Gathers system uptime information from an agent.
+url-snarf,Information Gathering,Varies (Network),Captures URLs from network traffic.
+ventrilo-info,Information Gathering,3784 (Ventrilo),Retrieves information about a Ventrilo server.
+versant-info,Information Gathering,Varies (Network),Retrieves information about Versant (Object-Oriented Database) server.
+vmauthd-brute,Brute Force,443 (VMware),Attempts to brute-force login credentials for VMware authentication service.
+vmware-version,Information Gathering,443 (VMware),Retrieves the version of VMware vCenter Server.
+vnc-brute,Brute Force,5900 (VNC),Attempts to brute-force login credentials for a VNC (Virtual Network Computing) server.
+vnc-info,Information Gathering,5900 (VNC),Retrieves information about a VNC server.
+vnc-title,Information Gathering,5900 (VNC),Retrieves the title of the VNC server’s session.
+voldemort-info,Information Gathering,Varies (Network),Retrieves information about a Voldemort (distributed key-value store) instance.
+vtam-enum,Information Gathering,Varies (Network),Enumerates VTAM (Virtual Telecommunications Access Method) instances.
+vulners,Vulnerability Scanning,Varies (Network),Retrieves vulnerability information from the Vulners database.
+vuze-dht-info,Information Gathering,Varies (Network),Retrieves information from a Vuze DHT (Distributed Hash Table) network.
+wdb-version,Information Gathering,80 (Web),Retrieves the version of a Web Database (WDB) service.
+weblogic-t3-info,Information Gathering,7001 (Weblogic),Retrieves information from WebLogic T3 protocol.
+whois-domain,Information Gathering,Varies (Network),Performs a WHOIS lookup for a domain.
+whois-ip,Information Gathering,Varies (Network),Performs a WHOIS lookup for an IP address.
+wsdd-discover,Information Gathering,3702 (WS-Discovery),Discovers devices using WS-Discovery protocol.
+x11-access,Information Gathering,6000 (X11),Checks if X11 (remote GUI) access is possible.
+xdmcp-discover,Information Gathering,177 (XDMCP),Discovers XDMCP (X Display Manager Control Protocol) services on the network.
+xmlrpc-methods,Information Gathering,80 (Web),Enumerates XML-RPC methods offered by a web service.
+xmpp-brute,Brute Force,5222 (XMPP),Attempts to brute-force login credentials for an XMPP (Jabber) server.
+xmpp-info,Information Gathering,5222 (XMPP),Retrieves information about an XMPP (Jabber) server.

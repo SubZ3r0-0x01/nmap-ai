@@ -1,0 +1,6 @@
+pandas
+scikit-learn
+nmap
+joblib
+requests
+colorama
